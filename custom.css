@@ -1,0 +1,43 @@
+
+/*Line 4 */ 
+#seatgeek, #seatgeek .td-wrapper, #seatgeek .td-wrapper * {
+    background: none repeat scroll 0% 0% #fff !important;  
+}
+
+/*Line 58 */ 
+#seatgeek .td-wrapper a, #seatgeek .td-wrapper img, #seatgeek .td-wrapper span{ color: #999 !important}
+
+
+/*Line 64 */ 
+#seatgeek .td-wrapper{ background: #fff!important;}
+
+/*Line 65 */ 
+#seatgeek .td-wrapper .td-header h2 {
+    background: none repeat scroll 0% 0% #135BB1 !important;
+    font-size: 18px !important;
+}
+/*Line 66 */ 
+#seatgeek .td-header h2 a, #seatgeek .td-sidebar .td-header h2 a {
+    background: none repeat scroll 0% 0% #135BB1 !important;
+    font-size: 18px !important;
+}
+
+/*Line 83 */ 
+#seatgeek .td-date span {
+    background: none repeat scroll 0% 0% #135BB1 !important;
+}
+
+
+/*Line 92 */ 
+#seatgeek .td-wrapper-main .td-content ul li .td-title-detail h3 {
+    color: #777!important;
+}
+
+
+/*Line : 96 */;
+#seatgeek .td-wrapper .td-title-detail span{ color: #000!important;}
+
+/*Line 99 */
+#seatgeek .td-gray-button {
+    background: none repeat scroll 0% 0% #135BB1 !important;
+}

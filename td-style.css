@@ -1,0 +1,287 @@
+
+ @import url('custom.css');
+
+#seatgeek , #seatgeek .td-wrapper, #seatgeek .td-wrapper *{
+border: none !important;
+display: block !important;
+margin: 0 !important;
+outline: none !important;
+padding: 0 !important;
+
+/*background: #313134  !important;*/
+cursor: auto !important;
+
+clear: none !important;
+float: none !important;
+height: auto !important;
+max-height: none !important;
+max-width: none !important;
+min-height: 0 !important;
+min-width: 0 !important;
+visibility: visible !important;
+width: auto !important;
+
+bottom: auto !important;
+clip: auto !important;
+left: auto !important;
+overflow: auto !important;
+position: relative !important;
+right: auto !important;
+top: auto !important;
+vertical-align: top !important;
+z-index: 1 !important;
+
+color: #000 !important;
+direction: ltr !important;
+font: normal  11px/14px 'Open Sans', sans-serif !important;
+font-size-adjust: none !important;
+font-stretch: normal !important;
+letter-spacing: normal !important;
+list-style: none !important;
+text-align: left !important;
+text-decoration: none !important;
+text-indent: 0 !important;
+text-shadow: none !important;
+text-transform: none !important;
+unicode-bidi: normal;
+white-space: normal !important;
+word-spacing: normal !important;
+
+border-collapse: collapse !important;
+border-spacing: 0 !important;
+caption-side: left !important;
+empty-cells: hide !important;
+table-layout: auto !important; 
+}
+
+
+#seatgeek .td-wrapper a, #seatgeek .td-wrapper img, #seatgeek .td-wrapper span{ display: inline !important; /*color:white !important*/}
+
+#seatgeek .td-wrapper a, #seatgeek .td-wrapper * a, #seatgeek .td-wrapper * a *{ cursor: pointer !important;}
+
+#seatgeek .td-wrapper-main{ max-width: 652px !important;}
+#seatgeek .td-wrapper{   border:1px solid #000!important; margin:0 auto!important; /*background:#313134!important;*/ font-family: 'Open Sans', sans-serif!important;}
+#seatgeek .td-wrapper p{ padding:0!important; margin:0!important;}
+#seatgeek .td-wrapper .td-header h2{ /*background: #4a4a4e!important;*/ text-align:center!important; color:#fff!important; padding:19px 0!important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1)!important; font-weight:700!important; /*font-size:12px!important;*/ margin: 0!important;}
+#seatgeek .td-header h2 a, #seatgeek .td-sidebar .td-header h2 a{
+    color:#fff!important;  
+    text-decoration:none!important;
+    /*background: #4a4a4e!important;*/
+    text-align:center!important; 
+    color:#fff!important;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1)!important;
+       /*font-size:12px!important;*/
+       font-weight:  700 !important;
+}
+#seatgeek .td-header h2 a:hover, #seatgeek .td-sidebar .td-header h2 a:hover{ text-decoration:underline!important; color: #fff!important;}
+#seatgeek .td-wrapper .td-content ul{ border-top:1px solid #000!important; margin:0!important; padding:0!important;}
+#seatgeek .td-content ul li{ border:0!important; list-style:none!important; overflow:hidden!important; padding:23px 25px!important; color:#fff!important; font-size:11px!important; margin: 0!important;}
+#seatgeek .td-content ul li + li { border-top: 1px solid #000 !important;}
+
+#seatgeek .td-date{ float:left!important; margin-right:4%!important;/* width:12%!important;*/}
+#seatgeek .td-date span{ line-height: 21px !important; text-align:center!important;  /*background:#4a4a4e!important;*/ float:left!important; padding:2px 4px!important; border:1px solid #636368!important; border-radius: 3px!important; margin-top: 6px!important; font-size:12px!important; font-weight:600!important; color:#fff !important;}
+#seatgeek .td-wrapper .powered_by{ color:#fff!important; font-size: 11px!important; color: #FFFFFF; line-height: 18px !important; text-shadow: 1px 1px 1px #000000 !important;}
+#seatgeek .td-title-detail{ float: left!important;margin-left: 0!important;margin-right: 2%!important;width: 48%!important; font-size: 11px!important;overflow:hidden !important}
+
+
+
+
+#seatgeek .td-content ul li .td-title-detail h3{ font-size:12px!important; font-weight:700!important; line-height:1.3!important; padding-bottom:8px!important; margin: -1px 0 0 0!important; line-height: 1.2 !important; font-family:	'Open Sans',sans-serif!important; }
+
+#seatgeek .td-wrapper-main .td-content ul li .td-title-detail h3{ margin-top: 5px!important; padding-bottom: 9px!important; /*color:#fff !important;*/}
+
+
+#seatgeek .td-button { float:right!important; /*width:64px!important;*/}
+#seatgeek .td-wrapper .td-title-detail span{ line-height: 1.3!important; display: block!important; /*color: #fff !important;*/}
+#seatgeek .td-wrapper .td-button a{ margin-top:5px!important; color:#FFF!important; text-decoration:none!important; padding:3px 12px!important;  text-transform:uppercase!important; font-weight:600!important; border:1px solid #000!important; border-radius: 3px!important;font-size:12px!important; font-weight:600!important; text-align:center!important; line-height: 21px !important; }
+#seatgeek .td-wrapper .td-button a:hover{ color:#fff!important;}
+#seatgeek .td-gray-button { /*background: #4a4a4e!important;*/ float:left!important; margin-right: 15px!important;}
+#seatgeek .td-green-button { background: #169d3f!important; float:right!important; }
+#seatgeek .td-wrapper-main .td-footer{ padding:  9px  0 11px!important;}
+#seatgeek .td-footer
+{
+    background: #4a4a4e!important; 
+    text-align:center!important; 
+    color:#fff!important; 
+    padding:6px 0!important;  
+    font-weight:400!important; 
+    font-size:12px!important; 
+    border-top:1px solid #000!important;
+}
+#seatgeek .td-wrapper .td-footer *{ background: none !important;}
+
+
+#seatgeek .td-wrapper .td-footer p , #seatgeek .td-sidebar .td-wrapper .td-footer p { margin: 0!important; padding : 0!important; background: #4a4a4e!important; 
+    text-align:center!important; 
+    color:#fff!important; }
+#seatgeek .td-wrapper .td-footer p a{ color:#fff!important; text-decoration:none!important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1)!important;}
+#seatgeek .td-footer a:hover{ text-decoration:underline!important;}
+#seatgeek .td-footer a img{ vertical-align:middle!important;margin-left: 2px!important; margin-top: 4px!important; box-shadow: none}
+
+/* Sidebar */
+#seatgeek .td-sidebar .td-content ul li{ padding:18px 0px 14px 16px!important;  }
+
+#seatgeek .td-sidebar .td-button{ width:64px!important; float:left!important; margin-left: 7px!important; }
+#seatgeek .td-sidebar ul li .td-button a{ display:block!important; width:60px!important; padding:1px 0px!important; color: #ffffff !important; }
+#seatgeek .td-sidebar ul li .td-button a:hover{color: #fff!important;}
+#seatgeek .td-sidebar .td-gray-button { background: #4a4a4e!important; float:none!important;  margin-right: 0!important; }
+#seatgeek .td-sidebar .td-wrapper  .td-green-button { background: #169d3f!important; float:none!important;margin-top:-4px }
+#seatgeek .td-sidebar .td-title-detail{ float: left!important;margin-left: 0!important;  margin-right: 3%!important; width: 58%!important;}
+#seatgeek .td-sidebar .td-date{ margin-right:13px!important;}
+#seatgeek .td-sidebar .td-date span{ margin-top:14px!important; line-height: 1!important; padding-top: 3px!important; padding-bottom: 4px !important;}
+
+
+#seatgeek .td-sidebar .td-wrapper .td-button a.td-gray-button{ margin-top: 7px!important}
+
+
+#seatgeek .td-sidebar .td-footer a img{ margin-top: 5px!important;}
+
+#seatgeek .td-wrapper p.td-no-tour {color: #FFFFFF!important;font-size: 11px !important;padding: 60px 0 !important; text-align: center!important;width: 100%!important;text-shadow: 1px 1px 1px #000000!important;}
+#seatgeek .td-no-tour a { text-decoration:none!important;color: #FFFFFF!important;}
+
+
+
+
+
+
+/*Widget CSS*/
+
+#seatgeek-widget , #seatgeek-widget .td-wrapper, #seatgeek-widget .td-wrapper *,#seatgeek-widget * {
+border: none !important;
+display: block !important;
+margin: 0 !important;
+outline: none !important;
+padding: 0 !important;
+
+background: #313134  !important;
+cursor: auto !important;
+
+clear: none !important;
+float: none !important;
+height: auto !important;
+max-height: none !important;
+max-width: none !important;
+min-height: 0 !important;
+min-width: 0 !important;
+visibility: visible !important;
+width: auto !important;
+
+bottom: auto !important;
+clip: auto !important;
+left: auto !important;
+overflow: auto !important;
+position: relative !important;
+right: auto !important;
+top: auto !important;
+vertical-align: top !important;
+z-index: 1 !important;
+
+color: #000 !important;
+direction: ltr !important;
+font: normal  11px/14px 'Open Sans', sans-serif !important;
+font-size-adjust: none !important;
+font-stretch: normal !important;
+letter-spacing: normal !important;
+list-style: none !important;
+text-align: left !important;
+text-decoration: none !important;
+text-indent: 0 !important;
+text-shadow: none !important;
+text-transform: none !important;
+unicode-bidi: normal;
+white-space: normal !important;
+word-spacing: normal !important;
+
+border-collapse: collapse !important;
+border-spacing: 0 !important;
+caption-side: left !important;
+empty-cells: hide !important;
+table-layout: auto !important; 
+}
+
+
+#seatgeek-widget .td-wrapper a, #seatgeek-widget .td-wrapper img, #seatgeek-widget .td-wrapper span{ display: inline !important; color:white !important}
+
+#seatgeek-widget .td-wrapper a, #seatgeek-widget .td-wrapper * a, #seatgeek-widget .td-wrapper * a *{ cursor: pointer !important;}
+
+#seatgeek-widget .td-wrapper-main{ max-width: 652px !important;}
+#seatgeek-widget .td-wrapper{   border:1px solid #000!important; margin:0 auto!important; background:#313134!important; font-family: 'Open Sans', sans-serif!important;}
+#seatgeek-widget .td-wrapper p{ padding:0!important; margin:0!important;}
+#seatgeek-widget .td-wrapper .td-header h2{ background: #4a4a4e!important; text-align:center!important; color:#fff!important; padding:19px 0!important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1)!important; font-weight:700!important; font-size:12px!important; margin: 0!important;}
+#seatgeek-widget .td-header h2 a, #seatgeek-widget .td-sidebar .td-header h2 a{
+    color:#fff!important;  
+    text-decoration:none!important;
+    background: #4a4a4e!important;
+    text-align:center!important; 
+    color:#fff!important;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1)!important;
+       font-size:12px!important;
+       font-weight:  700 !important;
+}
+#seatgeek-widget .td-header h2 a:hover, #seatgeek-widget .td-sidebar .td-header h2 a:hover{ text-decoration:underline!important; color: #fff!important;}
+#seatgeek-widget .td-wrapper .td-content ul{ border-top:1px solid #000!important; margin:0!important; padding:0!important;}
+#seatgeek-widget .td-content ul li{ border:0!important; list-style:none!important; overflow:hidden!important; padding:23px 25px!important; color:#fff!important; font-size:11px!important; margin: 0!important;}
+#seatgeek-widget .td-content ul li + li { border-top: 1px solid #000 !important;}
+
+#seatgeek-widget .td-date{ float:left!important; margin-right:4%!important;/* width:12%!important;*/}
+#seatgeek-widget .td-date span{ line-height: 21px !important; text-align:center!important;  background:#4a4a4e!important; float:left!important; padding:2px 4px!important; border:1px solid #636368!important; border-radius: 3px!important; margin-top: 6px!important; font-size:12px!important; font-weight:600!important; color:#fff !important;}
+#seatgeek-widget .td-wrapper .powered_by{ color:#fff!important; font-size: 11px!important; color: #FFFFFF; line-height: 18px !important; text-shadow: 1px 1px 1px #000000 !important;}
+#seatgeek-widget .td-title-detail{ float: left!important;margin-left: 0!important;margin-right: 2%!important;width: 48%!important; font-size: 11px!important;overflow:hidden !important}
+
+
+
+
+#seatgeek-widget .td-content ul li .td-title-detail h3{ font-size:12px!important; font-weight:700!important; line-height:1.3!important; padding-bottom:8px!important; margin: -1px 0 0 0!important; line-height: 1.2 !important; font-family:	'Open Sans',sans-serif!important; color:#fff !important;}
+
+#seatgeek-widget .td-wrapper-main .td-content ul li .td-title-detail h3{ margin-top: 5px!important; padding-bottom: 9px!important; color:#fff !important;}
+
+
+ #seatgeek-widget .td-button { float:right!important; /*width:64px!important;*/}
+#seatgeek-widget .td-wrapper .td-title-detail span{ line-height: 1.3!important; display: block!important; color: #fff !important;}
+#seatgeek-widget .td-wrapper .td-button a{ margin-top:0px!important; color:#FFF!important; text-decoration:none!important; padding:3px 12px!important;  text-transform:uppercase!important; font-weight:600!important; border:1px solid #000!important; border-radius: 3px!important;font-size:12px!important; font-weight:600!important; text-align:center!important; line-height: 21px !important; }
+#seatgeek-widget .td-wrapper .td-button a:hover{ color:#fff!important;}
+#seatgeek-widget .td-gray-button { background: #4a4a4e!important; float:left!important; margin-right: 15px!important;}
+#seatgeek-widget .td-green-button { background: #169d3f!important; float:right!important; }
+#seatgeek-widget .td-wrapper .td-footer{ padding:  9px  0 11px!important;line-height: 24px!important;}
+#seatgeek-widget .td-footer
+{
+    background: #4a4a4e!important; 
+    text-align:center!important; 
+    color:#fff!important; 
+    padding:6px 0!important;  
+    font-weight:400!important; 
+    font-size:12px!important; 
+    border-top:1px solid #000!important;
+}
+#seatgeek-widget .td-wrapper .td-footer *{ background: none !important;}
+
+
+#seatgeek-widget .td-wrapper .td-footer p , #seatgeek-widget .td-sidebar .td-wrapper .td-footer p { margin: 0!important; padding : 0!important; background: #4a4a4e!important; 
+    text-align:center!important; 
+    color:#fff!important; }
+#seatgeek-widget .td-wrapper .td-footer p a{ color:#fff!important; text-decoration:none!important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1)!important;}
+#seatgeek-widget .td-footer a:hover{ text-decoration:underline!important;}
+#seatgeek-widget .td-footer a img{ vertical-align:middle!important;margin-left: 2px!important; margin-top: 4px!important; box-shadow: none}
+
+/* Sidebar */
+#seatgeek-widget .td-sidebar .td-content ul li{ padding:18px 0px 14px 16px!important;  }
+
+#seatgeek-widget .td-sidebar .td-button{ width:64px!important; float:left!important; margin-left: 7px!important; margin-top: -4px !important}
+#seatgeek-widget .td-sidebar ul li .td-button a{ display:block!important; width:60px!important; padding:1px 0px!important; color: #ffffff !important; }
+#seatgeek-widget .td-sidebar ul li .td-button a:hover{color: #fff!important;}
+#seatgeek-widget .td-sidebar .td-gray-button { background: #4a4a4e!important; float:none!important;  margin-right: 0!important; }
+#seatgeek-widget .td-sidebar .td-wrapper  .td-green-button { background: #169d3f!important; float:none!important;margin-top:-4px }
+#seatgeek-widget .td-sidebar .td-title-detail{ float: left!important;margin-left: 0!important;  margin-right: 3%!important; width: 56%!important;}
+#seatgeek-widget .td-sidebar .td-date{ margin-right:13px!important;}
+#seatgeek-widget .td-sidebar .td-date span{ margin-top:14px!important; line-height: 1!important; padding-top: 3px!important; padding-bottom: 4px !important;}
+
+
+#seatgeek-widget .td-sidebar .td-wrapper .td-button a.td-gray-button{ margin-top: 7px!important}
+
+
+#seatgeek-widget .td-sidebar .td-footer a img{ margin-top: 5px!important;}
+
+#seatgeek-widget .td-wrapper p.td-no-tour {color: #FFFFFF!important;font-size: 11px !important;padding: 60px 0 !important; text-align: center!important;width: 100%!important;text-shadow: 1px 1px 1px #000000!important;}
+#seatgeek-widget  .td-wrapper .td-no-tour a { text-decoration:none!important;color: #FFFFFF!important;}

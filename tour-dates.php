@@ -62,7 +62,7 @@ function td_event_data( $artist_name , $per_page = 10 ) {
         $follow_redirects = false;
         $debug       = false;   
    
-	$api_end_point = 'http://api.seatgeek.com/2/events?per_page='.$per_page.'&performers.slug=';
+	$api_end_point = 'https://api.seatgeek.com/2/events?per_page='.$per_page.'&performers.slug=';
    
         $url = $api_end_point.$artist_name;
 	# initialise the CURL library
@@ -127,7 +127,7 @@ function td_event_data_venue( $venue_name , $per_page = 10 ) {
         $follow_redirects = false;
         $debug       = false;   
    
-	$api_end_point = 'http://api.seatgeek.com/2/events?per_page='.$per_page.'&q=';
+	$api_end_point = 'https://api.seatgeek.com/2/events?per_page='.$per_page.'&q=';
    
     $url = $api_end_point.$venue_name;
 	# initialise the CURL library
@@ -193,7 +193,7 @@ function td_event_data_performer( $performer_name , $per_page = 10 ) {
         $follow_redirects = false;
         $debug       = false;   
    
-	$api_end_point = 'http://api.seatgeek.com/2/events?per_page='.$per_page.'&performers.slug=';
+	$api_end_point = 'https://api.seatgeek.com/2/events?per_page='.$per_page.'&performers.slug=';
    
     $url = $api_end_point.$performer_name;
 	# initialise the CURL library
